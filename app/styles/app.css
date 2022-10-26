@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('index.css');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+body {
+    background-color: rgb(252, 229, 221);;
+}

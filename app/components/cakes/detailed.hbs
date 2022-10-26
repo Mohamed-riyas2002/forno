@@ -1,0 +1,33 @@
+<article class="cakes">
+    <div class="details">
+        {{!-- template-lint-disable no-invalid-interactive --}}
+        <div class="cake-img {{if this.isLarge "large"}}" {{on "click" this.toggleSize}}>
+            <Cakes::Image
+                src={{@cakes.image}}
+                alt="Image Of {{@cakes.Cake_Name}}"
+            />
+        </div>
+        <div class="cake-details">
+            <h3>
+                Cake Name: {{@cakes.title}}
+            </h3>
+            <div class="bakery">
+                <p>Bakery : {{@cakes.Bakery}}</p>
+            </div>
+            <div class="bakery-location">
+                <p>Location : {{@cakes.City}}</p>
+            </div>
+            <div class="cake-price">
+                <p>Price : &#8377; {{@cakes.Price}}</p>
+            </div>
+            <Map
+                @lat= {{@cakes.Location.lat}}
+                @lng= {{@cakes.Location.lng}}
+                @zoom="11"
+                @width="150"
+                @height="150"
+                alt="A map of Bakery"
+            />
+        </div>
+    </div>
+</article>
