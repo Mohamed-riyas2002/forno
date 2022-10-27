@@ -1,57 +1,57 @@
 {
   "data": [
     {
-      "type": "rentals",
+      "type": "cakes",
       "id": "grand-old-mansion",
       "attributes": {
         "title": "Birthday Cake",
-        "Bakery": "Forno",
-        "City": "Chennai",
-        "Price": "2000",
-        "Location": {
+        "bakery": "Forno",
+        "city": "Chennai",
+        "price": "800",
+        "location": {
           "lat": "13.0827",
           "lng": "80.2707"
         },
         "category": "Estate",
         "bedrooms": 15,
         "image": "https://www.fnp.com/images/pr/l/v20200707214916/chocolate-caramel-fudge-cake_1.jpg",
-        "description": "This grand old mansion sits on over 100 acres of rolling hills and dense redwood forests."
+        "description": "A delicious cake with Round Shape Whipped cream Suitable for: Birthdays Anniversary"
       }
     },
     {
-      "type": "rentals",
+      "type": "cakes",
       "id": "urban-living",
       "attributes": {
-        "title": "Urban Living",
-        "Bakery": "Forno",
-        "City": "Chennai",
-        "Price": "2000",
-        "Location": {
-          "lat": "13.0827",
-          "lng": "80.2707"
+        "title": "Butterfly cake",
+        "bakery": "Minerva",
+        "city": "Bangalore",
+        "price": "500",
+        "location": {
+          "lat": "12.9716",
+          "lng": "77.5946"
         },
         "category": "Condo",
         "bedrooms": 1,
-        "image": "https://www.fnp.com/images/pr/l/v20200707214916/chocolate-caramel-fudge-cake_1.jpg",
-        "description": "A commuters dream. This rental is within walking distance of 2 bus stops and the Metro."
+        "image": "https://imgcdn.floweraura.com/buttery-butterfly-cake-9854720ca-A_0.jpg",
+        "description": "Cake which is a very delightful and coloured cake with a subtle flavour. It is very fluffy, light, and moist"
       }
     },
     {
-      "type": "rentals",
+      "type": "cakes",
       "id": "downtown-charm",
       "attributes": {
-        "title": "Downtown Charm",
-        "Bakery": "Violet Beauregarde",
-        "City": "Chennai",
-        "Price": "2000",
-        "Location": {
-          "lat": "13.0827",
-          "lng": "80.2707"
+        "title": "Chocolate Cake",
+        "bakery": "Violet Beauregarde",
+        "city": "Mumbai",
+        "price": "1000",
+        "location": {
+          "lat": "19.0760",
+          "lng": "72.8777"
         },
         "category": "Apartment",
         "bedrooms": 3,
-        "image": "https://www.fnp.com/images/pr/l/v20200707214916/chocolate-caramel-fudge-cake_1.jpg",
-        "description": "Convenience is at your doorstep with this charming downtown rental. Great restaurants and active night life are within a few feet."
+        "image": "https://www.labonelfinebaking.shop/wp-content/uploads/2021/02/CLASSIC-CHOCOLATE-CAKE.jpg",
+        "description": "Three layers of dark chocolate cake filled and iced with dark, semi-sweet chocolate ganache."
       }
     }
   ]
