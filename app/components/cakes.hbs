@@ -8,19 +8,21 @@
             />
         </div>
         <div class="cake-details">
-            <h3>
-                <LinkTo @route="cakes" @model={{@cakes}}>
-                    Cake Name: {{@cakes.title}}
-                </LinkTo>
-            </h3>
-            <div class="bakery">
-                <p>Bakery : {{@cakes.bakery}}</p>
-            </div>
-            <div class="bakery-location">
-                <p>Location : {{@cakes.city}}</p>
-            </div>
-            <div class="cake-price">
-                <p>Price : &#8377; {{@cakes.price}}</p>
+            <div class="cake-details-1">
+                <h3>
+                    <LinkTo @route="cakes" @model={{@cakes}}>
+                        Cake Name: {{@cakes.title}}
+                    </LinkTo>
+                </h3>
+                <div class="bakery">
+                    <p>Bakery : {{@cakes.bakery}}</p>
+                </div>
+                <div class="bakery-location">
+                    <p>Location : {{@cakes.city}}</p>
+                </div>
+                <div class="cake-price">
+                    <p>Price : &#8377; {{@cakes.price}}</p>
+                </div>
             </div>
             <Map
                 @lat= {{@cakes.location.lat}}

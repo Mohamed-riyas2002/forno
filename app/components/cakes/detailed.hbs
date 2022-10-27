@@ -8,6 +8,7 @@
             />
         </div>
         <div class="cake-details">
+            <div class="cake-details-1">
             <h3>
                 Cake Name: {{@cakes.title}}
             </h3>
@@ -19,6 +20,8 @@
             </div>
             <div class="cake-price">
                 <p>Price : &#8377; {{@cakes.price}}</p>
+            </div>
+            <p>{{@cakes.description}}</p>
             </div>
             <Map
                 @lat= {{@cakes.location.lat}}

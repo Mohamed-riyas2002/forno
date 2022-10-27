@@ -3,7 +3,7 @@
         <p>Search Which Cake You like?</p>
         <Input @value={{this.query}} class="search-input" />
     </div>
-    <ul>
+    <ul style="list-style-type: none;">
         <Cakes::filter @cakes = {{@cakes}} @query={{this.query}} as |results|>
             {{#each results as |rental|}}
                 <li><Cakes @cakes={{rental}} /></li>
