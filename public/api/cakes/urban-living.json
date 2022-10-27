@@ -1,15 +1,16 @@
 {
   "data": {
-    "type": "rentals",
+    "type": "cakes",
     "id": "urban-living",
     "attributes": {
       "title": "Urban Living",
-      "owner": "Mike Teavee",
-      "city": "Seattle",
-      "location": {
+      "Bakery": "Forno",
+      "City": "Seattle",
+      "Location": {
         "lat": 47.6062,
         "lng": -122.3321
       },
+      "Price":"2000",
       "category": "Condo",
       "bedrooms": 1,
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Seattle_-_Barnes_and_Bell_Buildings.jpg",

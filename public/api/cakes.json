@@ -1,14 +1,14 @@
 {
   "data": [
     {
-      "type": "rentals",
+      "type": "cakes",
       "id": "grand-old-mansion",
       "attributes": {
         "title": "Birthday Cake",
-        "Bakery": "Forno",
-        "City": "Chennai",
-        "Price": "2000",
-        "Location": {
+        "bakery": "Forno",
+        "city": "Chennai",
+        "price": "2000",
+        "location": {
           "lat": "13.0827",
           "lng": "80.2707"
         },
@@ -19,38 +19,38 @@
       }
     },
     {
-      "type": "rentals",
+      "type": "cakes",
       "id": "urban-living",
       "attributes": {
-        "title": "Urban Living",
-        "Bakery": "Forno",
-        "City": "Chennai",
-        "Price": "2000",
-        "Location": {
+        "title": "Butterfly cake",
+        "bakery": "Forno",
+        "city": "Chennai",
+        "price": "2000",
+        "location": {
           "lat": "13.0827",
           "lng": "80.2707"
         },
         "category": "Condo",
         "bedrooms": 1,
-        "image": "https://www.fnp.com/images/pr/l/v20200707214916/chocolate-caramel-fudge-cake_1.jpg",
+        "image": "https://imgcdn.floweraura.com/buttery-butterfly-cake-9854720ca-A_0.jpg",
         "description": "A commuters dream. This rental is within walking distance of 2 bus stops and the Metro."
       }
     },
     {
-      "type": "rentals",
+      "type": "cakes",
       "id": "downtown-charm",
       "attributes": {
-        "title": "Downtown Charm",
-        "Bakery": "Violet Beauregarde",
-        "City": "Chennai",
-        "Price": "2000",
-        "Location": {
+        "title": "Chocolate Cake",
+        "bakery": "Violet Beauregarde",
+        "city": "Chennai",
+        "price": "2000",
+        "location": {
           "lat": "13.0827",
           "lng": "80.2707"
         },
         "category": "Apartment",
         "bedrooms": 3,
-        "image": "https://www.fnp.com/images/pr/l/v20200707214916/chocolate-caramel-fudge-cake_1.jpg",
+        "image": "https://www.labonelfinebaking.shop/wp-content/uploads/2021/02/CLASSIC-CHOCOLATE-CAKE.jpg",
         "description": "Convenience is at your doorstep with this charming downtown rental. Great restaurants and active night life are within a few feet."
       }
     }

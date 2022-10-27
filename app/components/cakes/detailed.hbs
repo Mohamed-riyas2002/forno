@@ -1,10 +1,10 @@
 <article class="cakes">
     <div class="details">
         {{!-- template-lint-disable no-invalid-interactive --}}
-        <div class="cake-img {{if this.isLarge "large"}}" {{on "click" this.toggleSize}}>
+        <div class="cake-img {{if this.isLarge "large"}}" {{action "toggleSize"}}>
             <Cakes::Image
                 src={{@cakes.image}}
-                alt="Image Of {{@cakes.Cake_Name}}"
+                alt="Image Of {{@cakes.title}}"
             />
         </div>
         <div class="cake-details">
@@ -12,22 +12,29 @@
                 Cake Name: {{@cakes.title}}
             </h3>
             <div class="bakery">
-                <p>Bakery : {{@cakes.Bakery}}</p>
+                <p>Bakery : {{@cakes.bakery}}</p>
             </div>
             <div class="bakery-location">
-                <p>Location : {{@cakes.City}}</p>
+                <p>Location : {{@cakes.city}}</p>
             </div>
             <div class="cake-price">
-                <p>Price : &#8377; {{@cakes.Price}}</p>
+                <p>Price : &#8377; {{@cakes.price}}</p>
             </div>
             <Map
-                @lat= {{@cakes.Location.lat}}
-                @lng= {{@cakes.Location.lng}}
+                @lat= {{@cakes.location.lat}}
+                @lng= {{@cakes.location.lng}}
                 @zoom="11"
                 @width="150"
                 @height="150"
                 alt="A map of Bakery"
             />
+            <ShareButton
+                @text="Check out {{@cakes.title}} on Super Rentals!"
+                @hashtags="vacation,travel,authentic,blessed,forno"
+                @via="emberjs"
+            >
+            Share on Twitter
+            </ShareButton>
         </div>
     </div>
 </article>

@@ -1,0 +1,20 @@
+{
+  "data": {
+      "type": "cakes",
+      "id": "grand-old-mansion",
+      "attributes": {
+        "title": "Birthday Cake",
+        "Bakery": "Forno",
+        "City": "Chennai",
+        "Price": "2000",
+        "Location": {
+          "lat": "13.0827",
+          "lng": "80.2707"
+        },
+        "category": "Estate",
+        "bedrooms": 15,
+        "image": "https://www.fnp.com/images/pr/l/v20200707214916/chocolate-caramel-fudge-cake_1.jpg",
+        "description": "This grand old mansion sits on over 100 acres of rolling hills and dense redwood forests."
+      }
+    }
+}
