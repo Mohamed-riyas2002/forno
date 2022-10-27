@@ -1,2 +1,10 @@
-<IndexMain></IndexMain>
-<Search @cakes = {{@model}}/>
+<IndexMain>
+<div class="cake-gallery">
+    <ul>
+        {{#each @model as |rental|}}
+            <li><Cakes @cakes={{rental}} /></li>
+        {{/each}}
+    </ul>
+</div>  
+</IndexMain>
+<Search @cakes={{@model}}></Search>
