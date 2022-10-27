@@ -1,0 +1,15 @@
+<div class="cake-gallery">
+    <div class="search">
+        <p>Choose your love bite</p>
+        <Input @value={{this.query}} class="search-input" />
+    </div>
+    <ul>
+        <Cakes::filter @cakes = {{@cakes}} @query={{this.query}} as |results|>
+            {{#each results as |rental|}}
+                <li><Cakes @cakes={{rental}} /></li>
+            {{/each}}
+        </Cakes::filter>
+        {{!-- <li><Cakes @cakes = {{@model}} /></li> --}}
+        {{!-- <li><Cakes /></li> --}}
+    </ul>
+</div>
