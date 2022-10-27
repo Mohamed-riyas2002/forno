@@ -1,2 +1,13 @@
+
 <IndexMain></IndexMain>
-<Search @cakes = {{@model}}/>
+<div class="cake-gallery">
+    <ul>
+        {{!-- <li><Cakes @cakes = {{@model}} /></li> --}}
+        {{!-- <li><Cakes /></li> --}}
+        {{#each @model as |rental|}}
+            <li><Cakes @cakes={{rental}} /></li>
+        {{/each}}
+    </ul>
+</div>  
+</IndexMain>
+

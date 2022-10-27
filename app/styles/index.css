@@ -4,32 +4,64 @@
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 0 0% 3% 0%;
+    background-color: #060300;
+
 }
+.about-div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+  background-color: #060300;
+  height:75vh;
+  padding: 0 0% 3% 0%;
+}
+
 #main-img {
     width: 65%;
     height: 100%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     float: right;
     margin-right: 10%;
+    margin-top: 6%;
+}
+
+#about-img{
+    width: 65%;
+    height: 60%;
+    /* border-radius: 50%; */
+    float: right;
+    margin-right: 10%;
+    margin-top: 6%;
 }
 .main-div-text {
     position: relative;
 }
+#welcome-msg{
+    margin-top: 10%;
+}
+.main-div-img-about{
+    padding-left: 10%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300&display=swap');
 
 #welcome-msg{
     margin-top: 15%;
     font-size: 50px;
     line-height: 140%;
-    font-family: 'Lobster';
-    letter-spacing: 3px;
+    font-family: 'Abril Fatface', cursive;
+    /* letter-spacing: 4px; */
+    color:white;
 }
 #welcome-msg span {
     font-size: 60px;
-    font-family: 'Lobster';
+    font-family: 'Abril Fatface', cursive;
+    color:white;
 }
 #tagline {
     font-size: 20px;
+    color:white;
 }
+
 .cake-gallery .search{
     width: 100%;
     text-align: center;
@@ -49,17 +81,75 @@
     outline: 1px solid rgb(255, 105, 105);
     box-shadow: rgb(255, 105, 105) 0px 1px 4px;;
 }
+
 .read-more-btn {
     width: 15%;
     height: 10%;
     position: absolute;
     font-weight: bold;
+
+    bottom: 13%;
+    }
+.cake-gallery .search{
+    width: 100%;
+    text-align: center;
+    background-color: #ffc485;
+    height: 20vh;
+}
+.cake-gallery .search p {
+    font-size: 140%;
+    font-style: italic;
+    /* font-weight: 600; */
+    padding-top: 3%;
+    font-family: "Lato", "Open Sans", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.cake-gallery .search .search-input {
+    width: 40%;
+    height: 40px;
+    border: none;
+    margin-top: 2vh;
     bottom: 18%;
     border-radius: 5px;
-    color: white;
-    background-color: rgb(255, 69, 0);
+    text-align: center;
+}
+.cake-gallery .search .search-input:focus {
+    outline: none;
+    box-shadow: #060300 0px 1px 4px;;
+}
+.read-more-btn {
+    width: 20vh;
+    height: 10%;
+    position: absolute;
+    /* font-weight: bold; */
+    bottom: 18%;
+    border-radius: 5px;
+    color: black;
+    background-color: #ffc485;
     border: none;
     cursor: pointer;
+    padding-left: 15px;
+    font-family: "Lato", "Open Sans", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+.read-more-btn-about{
+    width: 20vh;
+    height: 10%;
+    /* font-weight: bold; */
+    bottom: 18%;
+    border-radius: 5px;
+    color: black;
+    background-color: #ffc485;
+    border: none;
+    cursor: pointer;
+    padding-left: 15px;
+    font-family: "Lato", "Open Sans", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-style: italic;
 }
 .map{
     float: right;
@@ -70,9 +160,16 @@
 nav {
     color: black;
     overflow: hidden;
-    width: 100%;
+    width: 70%;
     font-size: 18px;
+
+    background-color: white;
+
+    margin-left: 15%;
+    background-color: #ffc485;
+
     /* background-color: white; */
+
 }
 #ul-2{
     float: right;         
@@ -90,13 +187,11 @@ nav {
     color: black;
 }
 #ul-2 li:hover {
-    background-color: rgb(255, 69, 0);
+    background-color: #f8e4cf;
     cursor: pointer;
     border-radius: 5px;
 }
-#ul-2 li:hover a {
-    color: white;
-}
+
 .web-logo {
     width: 5%;
     float: left;
